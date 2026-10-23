@@ -3,7 +3,7 @@
 student = {
     "name": "Jason",
     "grade": 90,
-    "subjects": ["Python", "Math", "Science"]
+    "subjects": ["Sports Science", "Math", "Physical Education"]
 }
 
 print(student["name"])
