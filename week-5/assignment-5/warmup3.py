@@ -1,19 +1,23 @@
+
 # Week 5 - Warmup 3: Linear Search
 
-numbers = [8, 15, 3, 12, 20]
+# List of names
+names = ["Leo", "Mia", "Carlos", "Marcus", "Sara"]
 
-target = int(input("Enter a number to search for: "))
+# Ask the user for a name
+target = input("Enter a name to search for: ")
 
+# -1 means the name has not been found
 found_index = -1
 
-for index in range(len(numbers)):
-    print(f"Checking index {index}: {numbers[index]}")
-
-    if numbers[index] == target:
+# Search through the list one name at a time
+for index in range(len(names)):
+    if names[index] == target:
         found_index = index
         break
 
+# Display the result
 if found_index != -1:
-    print(f"Number {target} found at index {found_index}.")
+    print(f'Found "{target}" at index {found_index}.')
 else:
-    print(f"Number {target} was not found.")
+    print(f'"{target}" was not found in the list.')
