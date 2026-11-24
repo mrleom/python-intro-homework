@@ -1,0 +1,13 @@
+# requirements.txt contents:
+# certifi==2026.11.20
+# charset-normalizer==3.5.3
+# idna==3.20
+# requests==2.34.2
+# urllib3==2.8.0
+
+# Week 8 - Warmup 4
+# Check the installed requests version
+
+import requests
+
+print(f"requests version: {requests.__version__}")
